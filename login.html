@@ -1,0 +1,68 @@
+<form action="http://www.savatarian.com/html5/form.php" method="POST" style="border:black; width: 50%">
+    <style> input {
+/* padding: 1px;
+margin: 8px 0; */
+/* resize: vertical; */
+float: right;
+}
+div {
+    margin-top: 4px;
+    margin-left: 5px;
+}
+</style>
+    <header>
+        <h1>voorbeeldformulier</h1>
+    </header>
+    <div>
+        <div style="width:50%; float: left;">
+           <div>
+            <label for="voornaam">voornaam</label>
+            <input type="text" name="voornaam">
+            <br></div><div>
+            <label for="tussenvoegsel">tussenvoegsel</label>
+            <input type="text" name="tussenvoegsel">
+            <br></div><div>
+            <label for="achternaam">achternaam</label>
+            <input type="text" name="achternaam">
+            <br></div><div>
+            <label for="geslacht"> geslacht:</label>
+            <div>
+            <input type="radio" name="geslacht" value="man">
+            &nbsp;man</div><div>
+            <input type="radio" name="geslacht" value="vrouw">
+            &nbsp;vrouw</div>
+            <br></div><div>
+            <label for="oogkleur">oogkleur:</label>
+            <select name="oogkleur">
+                <option value="groen">groen</option>
+                <option value="blauw">blauw</option>
+                <option value="bruin">bruin</option>
+            </select>
+            <br></div><div>
+            <label for="geboortedatum">geboortedatum</label>
+            <input type="date" name="geboortedatum">
+            <br></div>
+            <textarea name="omschrijving" cols="30" rows="10"></textarea>
+
+        </div>
+
+
+        <div style="width:50%; float: right">
+            <label for="eten">eten:</label>
+            <Div>
+            <input type="checkbox" name="eten">
+            <span class="checkbox">1</span>
+            </Div><div>
+            <input type="checkbox" name="eten">
+            <span class="checkbox">2</span>
+           </div><div>
+            <input type="checkbox" name="eten">
+            <span class="checkbox">3</span>
+        </div></div>
+        <div  style="float:right">
+            <!-- <button type="button"><a href="website.html">Annuleer</a></button> -->
+            <button type="reset">Annuleer</button>
+            <input type="submit" value="OK">
+        </div>
+    </div>
+</form>
